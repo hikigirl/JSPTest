@@ -7,7 +7,7 @@
 2. 폰트
    
 
-### 새 프로젝트
+### 새 프로젝트 만들기
 
 Dynamic Web Project
 1. Project name: "JSPTest"
