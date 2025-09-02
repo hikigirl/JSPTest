@@ -9,7 +9,7 @@
 
 ### 새 프로젝트
 
-1. Dynamic Web Project
-2. Project name: "JSPTest"
-3. Context root: "jsp"
-4. web.xml 체크
+Dynamic Web Project
+1. Project name: "JSPTest"
+2. Context root: "jsp"
+3. web.xml 체크
