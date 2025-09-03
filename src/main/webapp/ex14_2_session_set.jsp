@@ -10,6 +10,11 @@
 	</style>
 </head>
 <body>
+	<h1>세션값 저장하기</h1>
+	<%
+		session.setAttribute("data", "홍길동");
+	%>
+	<div><a href="ex14_1_session_main.jsp">돌아가기</a></div>
 	
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script src="https://bit.ly/4cMuheh"></script>

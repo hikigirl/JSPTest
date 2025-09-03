@@ -74,7 +74,7 @@
 	<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 	<script src="https://bit.ly/4cMuheh"></script>
 	<script>
-		//테두리 보이기 선택하면 추가되게끔 or hidden을 보이게 하는것도 가능하려나
+		//테두리 보이기 선택하면 td 안에 추가되게끔
 	</script>
 </body>
 </html>

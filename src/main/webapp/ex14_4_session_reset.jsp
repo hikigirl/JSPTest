@@ -10,9 +10,25 @@
 	</style>
 </head>
 <body>
-	<h1>세션값 삭제하기</h1>
+	<h1>세션 초기화</h1>
 	<%
-		session.removeAttribute("data");
+		session.invalidate();
+	
+	/* 
+		초기화 전:
+		Session ID: 9E397C6000AD805BC2E1052DA800D9D1
+		Session CreationTime: 2025-09-03 14:02:20
+		Session Max Inactive Interval: 1800
+		Session isNew: false
+		Session Data: 홍길동
+		
+		초기화 후:
+		Session ID: CEF2D340EC35ACA02338C802BA5AF08D
+		Session CreationTime: 2025-09-03 14:11:09
+		Session Max Inactive Interval: 1800
+		Session isNew: true
+		Session Data: null
+	*/
 	%>
 	<div><a href="ex14_1_session_main.jsp">돌아가기</a></div>
 	
