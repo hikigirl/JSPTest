@@ -11,6 +11,7 @@
 </head>
 <body class="narrow">
 	<h1>폼 입력 태그</h1>
+	<%-- <%@ include file="inc/url.jsp" %> --%>
 	<form method="post" action="ex08ok.jsp">
 	<table class="vertical">
 		<tr>
