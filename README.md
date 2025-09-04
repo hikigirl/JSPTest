@@ -13,3 +13,8 @@ Dynamic Web Project
 1. Project name: "JSPTest"
 2. Context root: "jsp"
 3. web.xml 체크
+
+
+### TODO
+1. Q02 마무리
+2. ex18 마무리
