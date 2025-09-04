@@ -17,7 +17,7 @@
 		
 	}); */
 	
-	Arrays.sort(list, (o1, o2) -> Long.compare(o2.lastModified(), o1.lastModified()));
+	Arrays.sort(list, (o1, o2) -> Long.compare(o1.lastModified(), o2.lastModified()));
 		
 	
 	//Arrays.toString(list);
@@ -92,7 +92,7 @@
 		%>
 	
 		<div class="item" style="background-image:url(pic/<%= file.getName() %>)" data-modal-button="view" data-filename="<%= file.getName() %>">
-			<span title="delete">&times;</span>
+			<span title="delete" onclick="del();">&times;</span>
 		</div>
 		<% }} %>
 	</div>
@@ -130,6 +130,19 @@
 			
 			$('#img1').attr('src', 'pic/' + $(event.target).data('filename'));
 		});
+		
+		function del(){
+			if (confirm('삭제하시겠습니까?')) {
+				let filename = $(event.target).parent().data('filename');
+				// alert(filename);
+				
+				location.href = 'ex17del.jsp?filename='+filename;
+				
+				
+			}
+			event.cancelBubble = false;
+			event.stopPropagation();
+		};
 	</script>
 </body>
 </html>

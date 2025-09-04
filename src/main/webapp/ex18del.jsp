@@ -1,4 +1,3 @@
-<%@page import="java.io.File"%>
 <%@page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 /*
@@ -6,16 +5,6 @@
 	2. 가져온 파일명 -> 파일 객체(File) -> 삭제
 	3. 목록으로 돌아가기(location, response)
 */
-
-	String filename = request.getParameter("filename");
-	//File file = new File(경로+파일명);
-	
-	String path = application.getRealPath("/pic");
-	File file = new File(path+"/"+filename);
-	
-	file.delete();
-	
-	response.sendRedirect("ex17.jsp");
 %>
 <!DOCTYPE html>
 <html lang="ko">

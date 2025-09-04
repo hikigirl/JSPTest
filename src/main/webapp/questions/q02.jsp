@@ -66,6 +66,17 @@
 					<option value="no">감추기</option>
 					<option value="yes">보이기</option>
 				</select>
+				<div id="borderoptions">
+					두께(px): <input type="number" name="borderWidth"><br>
+					색상: <input type="color" name="borderColor"><br>
+					스타일: 
+					<select name="border">
+						<option value="solid">실선</option>
+						<option value="dashed">쇄선</option>
+						<option value="dotted">점선</option>
+					</select><br>
+					모서리(px): <input type="number" name="borderRadius">
+				</div>
 			</td>
 		</tr>
 	</table>
